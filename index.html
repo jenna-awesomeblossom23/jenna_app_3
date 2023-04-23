@@ -106,6 +106,11 @@ document.getElementById("contentBox").appendChild(frownyImage);
 document.getElementById("alternateContentText").innerHTML = "You inserted " + exampleVariable1 + " smiley faces and " + exampleVariable2 + " frowny faces!";
 }
 	
+function makeJoke()
+{
+document.getElementById("jokeContentText").innerHTML = "hello my name is jenna";
+}
+	
 </script>
   
   
@@ -181,11 +186,13 @@ document.getElementById("alternateContentText").innerHTML = "You inserted " + ex
   <a href="#finalpage" onclick="exampleFunction1();" class="w3-btn w3-flat-lime">Addition</a>
   <a href="#finalpage" onclick="exampleFunction2();" class="w3-btn w3-flat-lime">Multiplication</a>
   <a href="#finalpage" onclick="exampleFunction3();" class="w3-btn w3-flat-lime">Exponent</a>
-  <a href="#alternatepage" onclick="insertImages();" class="w3-btn w3-flat-lime">Special Button </a>  
+  <a href="#alternatepage" onclick="insertImages();" class="w3-btn w3-flat-lime">Special Button </a>
+<a href="#jokepage" onclick="makeJoke();" class="w3-btn w3-flat-lime">Press for a joke :) </a>  
     
   </center>
 </div>  
   
+<!--ALTERNATE PAGE-->
 <div id="alternatepage" class="page">
 <div id="alternateheader" class="w3-container w3-flat-periwinkle">
 <h1>Smiley Page!</h1>
@@ -194,6 +201,21 @@ document.getElementById("alternateContentText").innerHTML = "You inserted " + ex
 <center>
 <div id="contentBox" class="w3-container">
 <p id="alternateContentText">Placeholder text!</p>
+</div>
+
+<a href="#content" onclick="resetVariables();" class="w3-btn w3-flat-lime">Return to Home Page</a>
+</center>
+</div>
+	  
+<!--JOKE PAGE-->
+<div id="jokepage" class="page">
+<div id="jokeheader" class="w3-container w3-flat-periwinkle">
+<h1>Joke Page!</h1>
+</div>
+
+<center>
+<div id="jokeBox" class="w3-container">
+<p id="jokeContentText">Placeholder text!</p>
 </div>
 
 <a href="#content" onclick="resetVariables();" class="w3-btn w3-flat-lime">Return to Home Page</a>
