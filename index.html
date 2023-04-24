@@ -85,7 +85,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		exampleVariable2 = 0;
 		exampleVariable3 = 0;
 	}
+
 	
+	<!--The fucniton that inserts the smiley and frowny faces followed by the function that calls upon the joke page-->
 function insertImages()
 {
 exampleVariable1 = parseFloat(document.getElementById("firstInputBox").value);
@@ -108,7 +110,7 @@ document.getElementById("alternateContentText").innerHTML = "You inserted " + ex
 	
 function makeJoke()
 {
-document.getElementById("jokeContentText").innerHTML = "hello my name is jenna";
+document.getElementById("jokeContentText").innerHTML = "What do you call a magic dog? A labracadabrador!";
 }
 	
 </script>
@@ -226,13 +228,13 @@ document.getElementById("jokeContentText").innerHTML = "hello my name is jenna";
 <!--LAST SUBPAGE-->
 <div id="finalpage" class="page">
 	<div id="finalheader" class="w3-container w3-flat-periwinkle">
-		<h1>FINAL PAGE TITLE GOES HERE</h1>
+		<h1>Results Page</h1>
 	</div>
 	
   <center>
     
 	  <div id="finalcontent" class="w3-container">
-		  <p id="endResults">FINAL PAGE CONTENT GOES HERE</p>
+		  <p id="endResults">Press the cat button for your result or return to the home page!</p>
 	  </div>
   
   <a class="w3-btn w3-flat-lime" onclick="exampleResultsFunction();">Click me!
