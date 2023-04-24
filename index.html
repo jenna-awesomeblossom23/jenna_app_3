@@ -116,6 +116,10 @@ function makeJoke()
 document.getElementById("jokeContentText").innerHTML = "What do you call a magic dog? A labracadabrador!";
 }
 	
+function insertVideo()
+	{
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/3MuzSVXz728" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	}
 </script>
   
   
@@ -217,7 +221,11 @@ document.getElementById("jokeContentText").innerHTML = "What do you call a magic
 	  <br>
 	  <img id= "JokeButtonImg" src="https://www.pngmart.com/files/12/Corgi-PNG-File.png" width="30" alt="Corgi">
 	  </a>  
-    
+ <a href="#videopage" onclick="insertVideo();" class="w3-btn w3-flat-lime">Click for a fun surprise!!
+	  <br>
+	  <img id= "VideoButtonImg" src="https://www.pngmart.com/files/22/Disco-Ball-PNG-Photos.png" width="30" alt="disco ball">
+	  </a>  
+														   
   </center>
 </div>  
   
@@ -253,6 +261,19 @@ document.getElementById("jokeContentText").innerHTML = "What do you call a magic
 		<img id="JokeImg" src="https://i.imgur.com/NcEg8Ym.png" "img width="420" height="315" alt="labracadabrador">
 															   														   
 </div>
+		
+<!--VIDEO PAGE-->
+<div id="videopage" class="page">
+<div id="videoheader" class="w3-container w3-flat-periwinkle">
+<h1>DANCING JENNA!</h1>
+</div>
+
+<center>
+<div id="VideoBox" class="w3-container">
+<p id="VideoContentText">Placeholder text!</p>
+	</div>
+	<a href="#content" onclick="resetVariables();" class="w3-btn w3-flat-lime">Return to Home Page</a>
+</center>			
  
 	  
 <!--LAST SUBPAGE-->
